@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>synergynet3-parent</artifactId>
+		<groupId>synergynet3.parent</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<groupId>synergynet3.web.commons</groupId>
+	<artifactId>synergynet3-web-commons</artifactId>
+	<name>synergynet3-web-commons</name>
+	<url>http://maven.apache.org</url>
+	<build>  
+	    <outputDirectory>war/WEB-INF/classes</outputDirectory>
+	    <testOutputDirectory>war/WEB-INF/classes</testOutputDirectory>
+	    <resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.java</include>
+					<include>**/*.gwt.xml</include>
+				</includes>
+				<targetPath>war/WEB-INF/classes</targetPath>
+			</resource>
+	    </resources>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+			<version>${gwt.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-servlet</artifactId>
+			<version>${gwt.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>synergynet3.cluster</groupId>
+			<artifactId>synergynet3-cluster</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+	<properties>
+		<gwt.version>2.2.0</gwt.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+</project>
+
+
+
+
