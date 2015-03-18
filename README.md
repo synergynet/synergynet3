@@ -9,4 +9,4 @@ The framework is more stable than version 2.5 and offers support for advanced ne
 
 For more details and information on how to download and run SynergyNet 2.5 read: [Using SynergyNet 3](https://github.com/synergynet/synergynet3/wiki/Running-SynergyNet-3)
 
-For developers read:  [Developing with SynergyNet 3]()
+For developers read:  [Developing with SynergyNet 3](https://github.com/synergynet/synergynet3/wiki/Developing-with-SynergyNet-3)
