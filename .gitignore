@@ -5,6 +5,12 @@
 *.classpath
 .settings
 
+# Generated binaries
+lwjgl*.*
+OpenAL*.dll*
+lwjgl.*
+OpenAL.dll*
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
