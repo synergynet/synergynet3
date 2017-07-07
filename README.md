@@ -1,5 +1,3 @@
-![SynergyNet 3](https://raw.githubusercontent.com/wiki/synergynet/synergynet3/synergynet3_preview_full.png)
-
 # SynergyNet 3
 
 SynergyNet is a java-based multi-touch interaction framework which utilises a large number of 3rd party libraries to facilitate additional features such as advanced network based communication.
